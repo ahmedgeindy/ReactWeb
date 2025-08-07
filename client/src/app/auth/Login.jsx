@@ -45,7 +45,7 @@ export const LoginPage = ({ onLogin }) => {
 
     try {
       const response = await fetch(
-        `${process.env.REACT_APP_API_URL}/API/User/Login`,
+        `https://apidevelopment.hivecfm.online:773/API/User/Login`,
         {
           method: 'POST',
           headers: {
